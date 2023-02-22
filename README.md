@@ -10,9 +10,10 @@ A function that calculates the century of a specific year.
 
 *START*
 
- 1. Divide parameter by 100     => /
- 2. Round up results            => Math.ceil
- 3. Return answer
+ 1. Define a function that takes in the year as a parameter.
+ 2. Divide parameter by 100     => /
+ 3. Round up the results        => Math.ceil
+ 4. Return the result
  
 *END*
 
