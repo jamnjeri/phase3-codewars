@@ -11,8 +11,8 @@ A function that calculates the century of a specific year.
 *START*
 
  1. Define a function that takes in the year as a parameter.
- 2. Divide parameter by 100     => /
- 3. Round up the results        => Math.ceil
+ 2. Divide parameter by 100     
+ 3. Round up the results        
  4. Return the result
  
 *END*
@@ -35,10 +35,11 @@ A function that squares every digit of a given number and concatenate's them.
 ### PSEUDO CODE:
 *START*
 
-  1. Split number into digits         => .split()
-  2. Square each number in array      => digit * digit
-  3. Convert to string                => .toString()
-  4. Join array                       => .join()
+  1. Define a function that takes in the number as as a parameter
+  2. Split the number into digits and store them in an array
+  3. Square each digit in the array     
+  4. Convert resultant array to a string                
+  5. Join the array to return one number
 
 *END*
 
@@ -50,18 +51,19 @@ A function that squares every digit of a given number and concatenate's them.
 
 ## Don't Give Me Five!
 ### BDD:
-Given a range of numbers, count how many numbers are in that range except any number with a 5 as part of it's digits
+A function that counts how many numbers are in a range of numbers except any numbers with a 5 as part of it's digits.
  - Input -> Start Number, End Number 
  - Output -> Count (Total count of numbers in that range)
 
 ### PSEUDO CODE:
 *START*
 
-  1. Initialize variable to store the count
-  2. Create a loop that starts at the start number and ends at the count number incrementing by 1 for each loop    => for/ while
-  3. Check for presence of a 5 as a part of it's digits   =>  .indexOf()
-  4. If presence = -1         => Increase count by 1
-  5. If presence != -1        => Do nothing
+  1. Define a function that accepts the lower limit(start number) and upper limit(end number)of the desired range. 
+  2. Initialize a variable to store the count
+  3. Create a loop that starts at the start number and ends at the end number incrementing by 1 for each loop.
+  4. Check for presence of a 5 as a part of it's digits.
+  5. If absent, Increase count by 1
+  6. If present, Do nothing
 
 *END*
 
